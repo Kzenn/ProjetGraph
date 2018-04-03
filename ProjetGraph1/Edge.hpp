@@ -1,5 +1,6 @@
 #ifndef EDGE_HPP_INCLUDED
 #define EDGE_HPP_INCLUDED
+#include <allegro.h>
 
 class Edge
 {
@@ -9,6 +10,8 @@ class Edge
     unsigned int m_x = 0; /// Allowed in C++11, left extremity of an edge.
     unsigned int m_y = 0; /// Allowed in C++11, right extremity of an edge.
     bool m_direction = false; /// Allowed in C++11, direction of an edge.
+    BITMAP* im_s1 = NULL;
+    BITMAP* im_s2 = NULL;
 
     public :
     /// Constructors and destructor

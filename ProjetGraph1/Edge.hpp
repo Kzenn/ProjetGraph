@@ -15,7 +15,7 @@ class Edge
 
     public :
     /// Constructors and destructor
-    Edge(unsigned int _weight, unsigned int _x, unsigned int _y, bool _direction);
+    Edge(unsigned int _weight, unsigned int _x, unsigned int _y, bool _direction, const char* _chemin1, const char* _chemin2);;
     ~Edge();
 
     /// Getters

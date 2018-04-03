@@ -10,11 +10,11 @@
 int main()
 {
     Graph g;
-    std::string choix;
+    std::string choice;
 
     std::cout << "Entrer le nom du fichier : " << std::endl;
-    std::cin >> choix;
-    g.FileReading(choix);
+    std::cin >> choice;
+    g.FileReading(choice);
 
 
 ///INITIALISATION DE ALLEGRO

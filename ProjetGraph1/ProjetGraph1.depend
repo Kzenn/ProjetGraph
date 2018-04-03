@@ -1,0 +1,16 @@
+# depslib dependency file v1.0
+1522769186 source:c:\users\cfb91\projetgraph\projetgraph1\main.cpp
+	<iostream>
+	"Graph.hpp"
+
+1522769181 c:\users\cfb91\projetgraph\projetgraph1\graph.hpp
+	<vector>
+	<set>
+	<unordered_set>
+	<string>
+	<fstream>
+	<iostream>
+	"Edge.hpp"
+
+1522762449 c:\users\cfb91\projetgraph\projetgraph1\edge.hpp
+

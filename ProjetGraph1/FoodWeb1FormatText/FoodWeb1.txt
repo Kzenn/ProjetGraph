@@ -1,4 +1,3 @@
-N°Sommet Fichier Sommet Suivant
 0 eagle.jpg  
 1 python.jpg 0
 2 wolf.jpg 0

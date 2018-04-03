@@ -1,11 +1,14 @@
 #include "Graph.hpp"
 
-/// Overload constructor
+///Constructor
 Graph::Graph(unsigned int _order) : m_order(_order)
 {
     /// Nothing to do here
 }
-
+Graph::Graph()
+{
+    /// Nothing to do here !
+}
 /// Destructor
 Graph::~Graph()
 {

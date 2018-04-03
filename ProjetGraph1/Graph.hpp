@@ -19,6 +19,7 @@ class Graph
 
     public :
     /// Constructors and destructor
+    Graph();
     Graph(unsigned int _order);
     ~Graph();
 

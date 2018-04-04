@@ -1,24 +1,20 @@
+#include "grman/grman.h"
 #include <iostream>
 #include <allegro.h>
 
-#define MODE_GRAPHIQUE GFX_AUTODETECT_FULLSCREEN
 
-#define LARGEURECRAN 1024
-#define HAUTEURECRAN 768
-#include "Graph.hpp"
+#include "graph.h"
 
 int main()
 {
-    Graph g;
-    std::string choice;
-
-    std::cout << "Entrer le nom du fichier : " << std::endl;
-    std::cin >> choice;
-    g.FileReading(choice);
 
 
-///INITIALISATION DE ALLEGRO
+
+    ///INITIALISATION DE ALLEGRO
     allegro_init();
+
+    /// A appeler en 1er avant d'instancier des objets graphiques etc...
+    grman::init();
 
     install_keyboard();
     install_mouse();
@@ -27,19 +23,16 @@ int main()
     ///UTILISATION DU SON
     install_sound(DIGI_AUTODETECT, MIDI_AUTODETECT, NULL);
 
+
     ///BIBLIOTHEQUES GRAPHIQUES ALLEGRO
     set_color_depth(desktop_color_depth());
-    if (set_gfx_mode(MODE_GRAPHIQUE,LARGEURECRAN,HAUTEURECRAN,0,0)!=0)
+    if (set_gfx_mode(GFX_AUTODETECT_FULLSCREEN,SCREEN_W, SCREEN_H,0,0)!=0)
     {
-        if (set_gfx_mode(GFX_AUTODETECT_FULLSCREEN,SCREEN_W,SCREEN_H,0,0)!=0)
-        {
-            allegro_message("prb gfx mode");
-            allegro_exit();
-            exit(EXIT_FAILURE);
-        }
-    }
-    set_display_switch_mode(SWITCH_BACKGROUND);
+        allegro_message("prb gfx mode");
+        allegro_exit();
+        exit(EXIT_FAILURE);
 
+    }
 
     int choix=0;
     ///DECLARATION BITMAP
@@ -52,6 +45,7 @@ int main()
     BITMAP* toolbar = load_bitmap("toolbar.bmp",NULL);
 
     BITMAP* buffermenu = create_bitmap(SCREEN_W,SCREEN_H);
+    BITMAP* buffer = create_bitmap(SCREEN_W,SCREEN_H);
 
     SAMPLE *song;
 
@@ -111,13 +105,33 @@ int main()
     stop_sample(song);
 
 
+
+    /// Un exemple de graphe
+    /// Le nom du répertoire où se trouvent les images à charger
+    grman::set_pictures_path("pics");
+    Graph g;
+    std::string choice;
+    std::cout << "Entrer le nom du fichier : " << std::endl;
+    std::cin >> choice;
+    g.ReadFile(choice);
+    //g.make_example();
+
     /// Vous gardez la main sur la "boucle de jeu"
     /// ( contrairement à des frameworks plus avancés )
     while ( !key[KEY_ESC] )
     {
+       /// Il faut appeler les méthodes d'update des objets qui comportent des widgets
+        g.update();
+
+        /// Mise à jour générale (clavier/souris/buffer etc...)
+        grman::mettre_a_jour();
 
     }
+
+    grman::fermer_allegro();
 
     return 0;
 }
 END_OF_MAIN();
+
+

@@ -1,0 +1,290 @@
+# depslib dependency file v1.0
+1522575069 source:c:\users\bastien\desktop\projet\graph_lib_exemple_graph\grman\coords.cpp
+	"coords.h"
+
+1522575424 c:\users\bastien\desktop\projet\graph_lib_exemple_graph\grman\coords.h
+	<cmath>
+
+1522636919 source:c:\users\bastien\desktop\projet\graph_lib_exemple_graph\grman\widget.cpp
+	"widget.h"
+
+1522636616 c:\users\bastien\desktop\projet\graph_lib_exemple_graph\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522539041 c:\users\bastien\desktop\projet\graph_lib_exemple_graph\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1509222372 c:\users\bastien\desktop\projet\graph_lib_exemple_graph\grman\grman_couleurs.h
+
+1522693599 source:c:\users\bastien\desktop\projet\graph_lib_exemple_graph\main.cpp
+	"grman/grman.h"
+	<iostream>
+	"graph.h"
+
+1522656089 c:\users\bastien\desktop\projet\graph_lib_exemple_graph\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522656553 source:c:\users\bastien\desktop\projet\graph_lib_exemple_graph\graph.cpp
+	"graph.h"
+
+1522515823 source:c:\users\bastien\desktop\projet\graph_lib_exemple_graph\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522755034 source:c:\users\bastien\desktop\projet info\graph.cpp
+	"graph.h"
+
+1522755035 c:\users\bastien\desktop\projet info\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522755040 c:\users\bastien\desktop\projet info\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522755043 c:\users\bastien\desktop\projet info\grman\grman_couleurs.h
+
+1522755037 c:\users\bastien\desktop\projet info\grman\coords.h
+	<cmath>
+
+1522755032 c:\users\bastien\desktop\projet info\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575069 source:c:\users\bastien\desktop\projet info\grman\coords.cpp
+	"coords.h"
+
+1522755038 source:c:\users\bastien\desktop\projet info\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522755042 source:c:\users\bastien\desktop\projet info\grman\widget.cpp
+	"widget.h"
+
+1522757152 source:c:\users\bastien\desktop\projet info\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	"graph.h"
+
+1522755034 source:c:\users\bastien\documents\cours ing2\projet info 2\projet info\graph.cpp
+	"graph.h"
+
+1522755035 c:\users\bastien\documents\cours ing2\projet info 2\projet info\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	"grman/grman.h"
+
+1522755040 c:\users\bastien\documents\cours ing2\projet info 2\projet info\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522755043 c:\users\bastien\documents\cours ing2\projet info 2\projet info\grman\grman_couleurs.h
+
+1522755037 c:\users\bastien\documents\cours ing2\projet info 2\projet info\grman\coords.h
+	<cmath>
+
+1522755032 c:\users\bastien\documents\cours ing2\projet info 2\projet info\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575069 source:c:\users\bastien\documents\cours ing2\projet info 2\projet info\grman\coords.cpp
+	"coords.h"
+
+1522767366 source:c:\users\bastien\documents\cours ing2\projet info 2\projet info\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522755042 source:c:\users\bastien\documents\cours ing2\projet info 2\projet info\grman\widget.cpp
+	"widget.h"
+
+1522765807 source:c:\users\bastien\documents\cours ing2\projet info 2\projet info\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	"graph.h"
+
+1522785494 source:c:\users\cfb91\desktop\projet info\projet info\graph.cpp
+	"graph.h"
+
+1522776477 c:\users\cfb91\desktop\projet info\projet info\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	<set>
+	<unordered_set>
+	<string>
+	<fstream>
+	<iostream>
+	"grman/grman.h"
+
+1522755042 c:\users\cfb91\desktop\projet info\projet info\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522755044 c:\users\cfb91\desktop\projet info\projet info\grman\grman_couleurs.h
+
+1522755038 c:\users\cfb91\desktop\projet info\projet info\grman\coords.h
+	<cmath>
+
+1522755034 c:\users\cfb91\desktop\projet info\projet info\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522575070 source:c:\users\cfb91\desktop\projet info\projet info\grman\coords.cpp
+	"coords.h"
+
+1522755044 source:c:\users\cfb91\desktop\projet info\projet info\grman\widget.cpp
+	"widget.h"
+
+1522767368 source:c:\users\cfb91\desktop\projet info\projet info\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522785423 source:c:\users\cfb91\desktop\projet info\projet info\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	"graph.h"
+
+1522575070 source:c:\users\cfb91\desktop\projet info essai\projet info\grman\coords.cpp
+	"coords.h"
+
+1522755038 c:\users\cfb91\desktop\projet info essai\projet info\grman\coords.h
+	<cmath>
+
+1522767368 source:c:\users\cfb91\desktop\projet info essai\projet info\grman\grman.cpp
+	<cmath>
+	<unordered_map>
+	<unordered_set>
+	<utility>
+	<string>
+	<iostream>
+	<regex>
+	"grman.h"
+	<allegro.h>
+	<png.h>
+	<loadpng.h>
+	<jpgalleg.h>
+
+1522755042 c:\users\cfb91\desktop\projet info essai\projet info\grman\grman.h
+	<allegro.h>
+	<string>
+	"grman_couleurs.h"
+	"coords.h"
+	"widget.h"
+
+1522755044 c:\users\cfb91\desktop\projet info essai\projet info\grman\grman_couleurs.h
+
+1522755034 c:\users\cfb91\desktop\projet info essai\projet info\grman\widget.h
+	"grman.h"
+	<iostream>
+	<string>
+	<vector>
+	<algorithm>
+	<allegro.h>
+
+1522755044 source:c:\users\cfb91\desktop\projet info essai\projet info\grman\widget.cpp
+	"widget.h"
+
+1522835011 source:c:\users\cfb91\desktop\projet info essai\projet info\main.cpp
+	"grman/grman.h"
+	<iostream>
+	<allegro.h>
+	"graph.h"
+
+1522791585 c:\users\cfb91\desktop\projet info essai\projet info\graph.h
+	<vector>
+	<map>
+	<string>
+	<memory>
+	<set>
+	<unordered_set>
+	<string>
+	<fstream>
+	<iostream>
+	"grman/grman.h"
+
+1522834678 source:c:\users\cfb91\desktop\projet info essai\projet info\graph.cpp
+	"graph.h"
+

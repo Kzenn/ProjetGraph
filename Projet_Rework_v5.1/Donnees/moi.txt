@@ -1,0 +1,1 @@
+0 pics/wolf.bmp 0 1 pics/python.bmp 5 426 138 500 500 20 50

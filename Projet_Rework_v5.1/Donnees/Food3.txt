@@ -1,0 +1,11 @@
+0 pics3/Krill.bmp 5 0 pics3/Bluewhale.bmp 50 145 54 162 427 300 20
+1 pics3/Krill.bmp 5 4 pics3/Fish.bmp 50 145 54 289 236 300 210
+2 pics3/Fish.bmp 4 3 pics3/Seabird.bmp 50 289 236 177 490 200 75
+3 pics3/Seabird.bmp 3 2 pics3/Leopardseal.bmp 50 177 490 263 503 75 60
+4 pics3/Krill.bmp 5 2 pics3/Leopardseal.bmp 50 145 54 263 503 300 60
+5 pics3/Leopardseal.bmp 2 1 pics3/Killerwhale.bmp 50 263 503 267 512 60 30
+6 pics3/Penguin.bmp 6 2 pics3/Leopardseal.bmp 50 272 522 263 503 250 60
+7 pics3/Penguin.bmp 6 1 pics3/Killerwhale.bmp 50 272 522 267 512 250 30
+8 pics3/Squid.bmp 8 6 pics3/Penguin.bmp 50 849 623 272 522 800 250
+9 pics3/Squid.bmp 8 7 pics3/Elephantseal.bmp 50 849 623 532 259 800 120
+10 pics3/Elephantseal.bmp 7 1 pics3/Killerwhale.bmp 50 532 259 267 512 120 30

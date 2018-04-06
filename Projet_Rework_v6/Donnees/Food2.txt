@@ -1,0 +1,11 @@
+0 pics2/mice.bmp 1 0 pics2/owl.bmp 50 395 285 543 153 400 40
+1 pics2/grasshopper.bmp 2 0 pics2/owl.bmp 50 663 283 543 153 200 40
+2 pics2/bird.bmp 4 3 pics2/fox.bmp 50 804 185 347 128 200 80
+3 pics2/rabbit.bmp 5 3 pics2/fox.bmp 50 110 38 347 128 600 80
+4 pics2/carrot.bmp 6 5 pics2/rabbit.bmp 50 212 625 110 38 910 600
+5 pics2/grass.bmp 7 5 pics2/rabbit.bmp 50 514 451 110 38 900 600
+6 pics2/grass.bmp 7 2 pics2/grasshopper.bmp 50 514 451 663 283 900 200
+7 pics2/grasshopper.bmp 2 4 pics2/birds.bmp 50 663 283 804 185 200 200
+8 pics2/grain.bmp 8 2 pics2/grasshopper.bmp 50 829 462 663 283 900 200
+9 pics2/grain.bmp 8 4 pics2/birds.bmp 50 829 462 804 185 900 200
+10 pics2/grain.bmp 8 1 pics2/mice.bmp 50 829 462 395 285 900 400
